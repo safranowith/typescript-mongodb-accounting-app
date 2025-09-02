@@ -1,8 +1,8 @@
-# TypeScript MongoDB Accounting App 📊
+# TypeScript MongoDB Accounting App
 
 אפליקציית הנהלת חשבונות מבוססת TypeScript ו-MongoDB שמאפשרת ניהול נתונים כלכליים והעלאת קבצים.
 
-## 🌟 תכונות
+## תכונות
 
 - **ניהול נתונים**: שמירה ושליפה של נתוני הנהלת חשבונות
 - **העלאת קבצים**: העלאה ושמירה של קבצים בטוחה
@@ -11,7 +11,7 @@
 - **בדיקות מקיפות**: מערכת בדיקות אוטומטית עם Jest
 - **TypeScript**: קוד בטוח ומהימן עם טיפוסים חזקים
 
-## 🏗️ מבנה הפרויקט
+## מבנה הפרויקט
 
 ```
 typescript-mongodb-app/
@@ -41,7 +41,7 @@ typescript-mongodb-app/
 └── package.json
 ```
 
-## 🚀 התקנה והפעלה
+## התקנה והפעלה
 
 ### דרישות מקדימות
 - Node.js 20.5.0+ (כלול בפרויקט)
@@ -69,7 +69,7 @@ typescript-mongodb-app/
    npm start
    ```
 
-## 🧪 בדיקות
+## בדיקות
 
 הפרויקט כולל מערכת בדיקות מקיפה עם Jest:
 
@@ -93,7 +93,7 @@ npm run test:verbose
 - **Mocking**: Mocks למודולים חיצוניים
 - **Coverage**: דוח כיסוי מלא
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### נתונים (Data)
 - `POST /api/data` - שמירת נתונים חדשים
@@ -103,7 +103,7 @@ npm run test:verbose
 - `POST /api/files/upload` - העלאת קובץ
 - `GET /api/files` - שליפת רשימת קבצים
 
-## 🔧 טכנולוגיות
+## טכנולוגיות
 
 ### Backend
 - **Node.js** 20.5.0 - סביבת ריצה
@@ -120,14 +120,14 @@ npm run test:verbose
 - **Supertest** 7.1.4 - בדיקות HTTP
 - **ts-jest** 29.4.1 - Jest עם TypeScript
 
-## 🔒 אבטחה
+## אבטחה
 
 - **Validation**: בדיקת נתונים בכניסה
 - **Error Handling**: טיפול בשגיאות מקיף
 - **Type Safety**: TypeScript למניעת שגיאות
 - **Duplicate Prevention**: מניעת כפילויות בנתונים
 
-## 📊 דוגמאות שימוש
+## דוגמאות שימוש
 
 ### שמירת נתונים
 ```javascript
@@ -152,7 +152,7 @@ const response = await fetch('/api/files/upload', {
 });
 ```
 
-## 🌍 משתנים סביבתיים
+## משתנים סביבתיים
 
 יצירת קובץ `.env`:
 ```
@@ -160,7 +160,7 @@ MONGODB_URI=mongodb://localhost:27017/accounting-app
 PORT=3000
 ```
 
-## 🛠️ פיתוח
+## פיתוח
 
 ### הוספת תכונות חדשות
 1. יצירת Service ב-`src/services/`
@@ -173,7 +173,7 @@ PORT=3000
 npm run test:watch
 ```
 
-## 📈 מדדי איכות
+## מדדי איכות
 
 - **Code Coverage**: 43.69% (Controllers: 100%)
 - **Type Safety**: 100% TypeScript
@@ -182,22 +182,22 @@ npm run test:watch
 
 ### תוצאות בדיקות:
 ```
-✅ Test Suites: 5 passed, 5 total
-✅ Tests: 33 passed, 33 total
-✅ Controllers: 100% Coverage
-✅ Services: 67.56% Coverage
+Test Suites: 5 passed, 5 total
+Tests: 33 passed, 33 total
+Controllers: 100% Coverage
+Services: 67.56% Coverage
 ```
 
-## 🚀 גרסאות
+## גרסאות
 
 - **v1.0.0**: גרסה ראשונית עם ניהול נתונים והעלאת קבצים
 - תכונות עתידיות: דוחות, גרפים, ייצוא נתונים
 
-## 📝 רישיון
+## רישיון
 
 MIT License - ראה קובץ LICENSE לפרטים.
 
-## 🤝 תרומה
+## תרומה
 
 1. Fork הפרויקט
 2. יצירת feature branch
@@ -206,4 +206,4 @@ MIT License - ראה קובץ LICENSE לפרטים.
 
 ---
 
-**פותח עם ❤️ בישראל**
+**פותח בישראל**

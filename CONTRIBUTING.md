@@ -79,7 +79,7 @@ git commit -m "docs(readme): update installation guide"
 
 ## Issue-to-PR Workflow Example
 
-1. **Create Issue**: "#123 Add user authentication"
+1. **Create Issue**: "Add user authentication"
 2. **Create Branch**: `feature/issue-123-add-user-auth`
 3. **Develop & Test**: Write code, add tests
 4. **Create PR**: "Add user authentication (Closes #123)"
